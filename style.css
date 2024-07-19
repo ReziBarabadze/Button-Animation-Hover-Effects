@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1f242d;
+  flex-direction: column;
+  gap: 44px;
+}
+a{
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, .3);
+  font-size: 48px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  transition: .5s;
+}
+a:hover{
+  color: var(--clr);
+  letter-spacing: 4px;
+}
